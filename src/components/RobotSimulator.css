@@ -1,0 +1,175 @@
+.robot-simulator {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* margin: auto; */
+    margin-bottom: 3vw; 
+    margin-top: 5vw;
+    width: 90%;
+    /* gap: 20%; */
+    /* max-width: 600px;  */
+  }
+  .runcommand{
+    width: 80%; 
+    
+  }
+  .command-input {
+    width: 75%; 
+    max-width: 700px;
+    margin-bottom: 3vw; 
+    padding: 1.5vw; 
+    font-size: 1em;
+    border: 2px solid #b398fa; 
+    border-radius: 0.5em;
+  }
+  
+  .command-buttons {
+    display: flex;
+    gap: 1vw; 
+    margin-left: 25%;
+  }
+  
+  .command-button {
+    background-color: #17803a;
+    color: #fff;
+    padding: 1vw 2vw;
+    font-size: 1em; 
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+  
+  .command-button:hover {
+    background-color: #3067a3;
+  }
+  .command-button-reset {
+    background-color: #d84a62;
+    color: #fff;
+    padding: 1vw 2vw;
+    font-size: 1em; 
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+  
+  .command-button-reset:hover {
+    background-color: #3067a3;
+  }
+  
+  .command-input {
+    margin-bottom: 10px;
+  }
+  
+  .grid-container {
+    display: grid;
+    /* grid-template-columns: repeat(5, 40px); */
+    /* gap: 4px; */
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #f8f1f1;
+  }
+  .grid-cell:nth-child(odd) {
+    background-color: #893983; /* Light blue for odd cells */
+  }
+  
+  .grid-cell:nth-child(even) {
+    background-color: #52bbc9; /* Lighter blue for even cells */
+  }
+  .robot {
+    background-color: rgb(184, 184, 224);
+    border-radius: 50%;
+  }
+  
+  .command-buttons {
+    margin-top: 10px;
+  }
+
+  .command-button {
+    margin-right: 10px;
+  }
+  
+  .output-area{
+    width: 80%;
+    /* height: 50%; */
+    background-color: rgb(86, 241, 241);
+    margin-top: 20px;
+    border-radius: 0.5em;
+  }
+ .command-history{
+  color: rgb(94, 7, 73);
+  font-family: "Bree Serif", serif !important;
+  padding: 10px;
+ }
+ .robot-display-container {
+  text-align: center;
+}
+
+.robot-display-container h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.robot-display-button {
+  background-color: #dd73da;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.robot-display-button:hover {
+  background-color: #dd73da;
+}
+
+.robot-state {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.robot-not-placed {
+  font-size: 16px;
+  color: #888;
+}
+
+/* Material-UI Dialog Styles */
+.MuiDialog-paper {
+  width: 60%;
+  max-width: 80%;
+}
+
+.MuiDialogTitle-root {
+  background-color: #dd73da;
+  color: white;
+}
+
+.MuiDialogContent-root {
+  padding: 20px;
+}
+
+.MuiDialogActions-root {
+  padding: 10px 20px;
+  justify-content: center;
+}
+
+.MuiButton-root {
+  background-color: #dd73da;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.MuiButton-root:hover {
+  background-color: #45a049;
+}
